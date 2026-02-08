@@ -1,4 +1,4 @@
-# Ultrasonic-Distance-Alarm-Arduino-
+# Ultrasonic Distance Alarm (Arduino)
 Ultrasonic distance-based alarm system using Arduino, HC-SR04 sensor, LED and buzzer. Built with the NewPing library.
 This project uses an HC-SR04 ultrasonic sensor to measure distance and trigger
 an LED and buzzer warning system based on proximity.
@@ -29,4 +29,24 @@ an LED and buzzer warning system based on proximity.
 This project uses the **NewPing** library.
 
 Install via Arduino IDE:
+1. Open Arduino IDE  
+2. Go to **Sketch → Include Library → Manage Libraries**  
+3. Search for **NewPing**  
+4. Install the library  
+
+
+## Behavior
+| Distance (cm) | Buzzer Speed |
+|-------------|--------------|
+| > 50 | Slow |
+| 30 – 50 | Medium |
+| 10 – 30 | Fast |
+| < 10 | Very fast |
+
+## Notes
+- Designed for **active buzzer**
+- If using a passive buzzer, replace `digitalWrite()` with `tone()`
+
+## License
+MIT  bunu nasıl edecez
 
