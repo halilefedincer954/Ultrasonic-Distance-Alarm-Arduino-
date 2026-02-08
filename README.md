@@ -1,7 +1,5 @@
 # Ultrasonic-Distance-Alarm-Arduino-
 Ultrasonic distance-based alarm system using Arduino, HC-SR04 sensor, LED and buzzer. Built with the NewPing library.
-# Ultrasonic Distance Alarm (Arduino)
-
 This project uses an HC-SR04 ultrasonic sensor to measure distance and trigger
 an LED and buzzer warning system based on proximity.
 
