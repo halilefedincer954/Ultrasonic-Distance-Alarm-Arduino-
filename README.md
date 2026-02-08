@@ -3,7 +3,8 @@
 Ultrasonic distance-based alarm system using **Arduino**, **HC-SR04**, **LED** and **Buzzer**.  
 The system measures distance and triggers visual and sound alerts as an object gets closer.
 
-![Project Diagram](diagram.png)
+![Project Diagram](![Uploading diagram.png.png…]()
+)
 
 ---
 
